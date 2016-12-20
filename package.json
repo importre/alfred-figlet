@@ -1,17 +1,26 @@
 {
   "name": "alfred-figlet",
-  "version": "0.1.0",
-  "description": "FIGlet is a program for making large letters out of ordinary text",
+  "version": "0.0.0",
+  "description": "Alfred 3 workflow to asciify plain text using figlet.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "figlet",
+    "alfred",
+    "art",
     "ascii",
-    "art"
+    "figlet"
   ],
-  "author": "Jaewe Heo",
+  "author": {
+    "name": "Jaewe Heo",
+    "email": "jaeweheo@gmail.com",
+    "url": "importre.com"
+  },
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
   "license": "MIT",
   "dependencies": {
     "alfy": "^0.6.0",
