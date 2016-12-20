@@ -1,0 +1,21 @@
+{
+  "name": "alfred-figlet",
+  "version": "0.1.0",
+  "description": "FIGlet is a program for making large letters out of ordinary text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "figlet",
+    "ascii",
+    "art"
+  ],
+  "author": "Jaewe Heo",
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "figlet": "^1.2.0",
+    "got": "^6.6.3"
+  }
+}
