@@ -12,7 +12,21 @@
 ```
 
 
+## Prerequisites
+
+You need [Node.js 4+](https://nodejs.org) and [Alfred 3](https://www.alfredapp.com) with the paid [Powerpack](https://www.alfredapp.com/powerpack/) upgrade.
+
+
+## Install
+
+```
+$ npm i -g alfred-figlet
+```
+
+
 ## Usage
+
+![](https://cloud.githubusercontent.com/assets/1744446/21360240/69047f00-c722-11e6-8199-0965dcdd868e.png)
 
 ### Asciify
 
@@ -28,9 +42,9 @@
 - <kbd>Cmd</kbd> + <kbd>Enter</kbd>
 - The gist page is opened in your browser
 
-#### Hello, World! examples
+#### `Hello, World!` examples
 
-- Type `figlet-demo` and <kbd>Enter</kbd>
+- Type `figlet-all` and <kbd>Enter</kbd>
 - or see [`Hello, World!`](helloworld.md) examples
 
 
