@@ -1,10 +1,11 @@
 {
   "name": "alfred-figlet",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Alfred 3 workflow to asciify plain text using figlet.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
   },
   "keywords": [
     "alfred",
@@ -16,10 +17,6 @@
     "name": "Jaewe Heo",
     "email": "jaeweheo@gmail.com",
     "url": "importre.com"
-  },
-  "scripts": {
-    "postinstall": "alfy-init",
-    "preuninstall": "alfy-cleanup"
   },
   "license": "MIT",
   "dependencies": {
