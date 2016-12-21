@@ -2,24 +2,33 @@
   "name": "alfred-figlet",
   "version": "0.1.2",
   "description": "Alfred 3 workflow to asciify plain text using figlet.js",
-  "main": "index.js",
+  "license": "MIT",
+  "repository": "importre/alfred-figlet",
+  "author": {
+    "name": "Jaewe Heo",
+    "email": "jaeweheo@gmail.com",
+    "url": "importre.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
   "scripts": {
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup"
   },
+  "files": [
+    "src",
+    "icon.png",
+    "info.plist"
+  ],
   "keywords": [
     "alfred",
     "art",
     "ascii",
     "figlet"
   ],
-  "author": {
-    "name": "Jaewe Heo",
-    "email": "jaeweheo@gmail.com",
-    "url": "importre.com"
-  },
-  "license": "MIT",
   "dependencies": {
+    "alfred-notifier": "^0.2.0",
     "alfy": "^0.6.0",
     "figlet": "^1.2.0",
     "got": "^6.6.3"
