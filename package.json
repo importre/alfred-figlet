@@ -10,7 +10,7 @@
     "url": "importre.com"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=8"
   },
   "scripts": {
     "postinstall": "alfy-init",
@@ -28,8 +28,8 @@
     "figlet"
   ],
   "dependencies": {
-    "alfred-notifier": "^0.2.0",
-    "alfy": "^0.6.0",
+    "alfred-notifier": "^0.2.3",
+    "alfy": "^0.9.1",
     "figlet": "^1.2.0",
     "got": "^6.6.3"
   }
